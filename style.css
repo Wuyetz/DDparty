@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to bottom right, black, red);
+    color:white;
+    
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-size: 14;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 16px;
+}
+
+.sword {
+    color: gold;
+}
+
+.members {
+    color: teal;
+}
+
+h3 {
+    color: blue;
+}
+
+button {
+    border-radius: 28px;
+}
