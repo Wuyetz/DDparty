@@ -25,3 +25,11 @@ h3 {
 button {
     border-radius: 28px;
 }
+
+p {
+    line-height: 0.5;
+}
+
+h4 {
+    line-height: 0.6;
+}
