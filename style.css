@@ -14,7 +14,11 @@ body {
 	line-height: 16px;
 }
 
-#classes, #classB0, #classB1, #classB2, #classB3 {
+#buttons {
+    margin-left: 20px;
+}
+
+#classB0, #classB1, #classB2, #classB3 {
     margin-left: 20px;
 }
 
