@@ -1,6 +1,5 @@
 body {
     background: linear-gradient(to bottom right, black, red);
-    background-size: cover;
     color:white;
     
     font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
@@ -25,10 +24,4 @@ h3 {
 
 button {
     border-radius: 28px;
-    margin-bottom: 10px;
-}
-
-div {
-    float: left;
-    margin-right: 20px;
 }
