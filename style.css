@@ -2,10 +2,7 @@ body {
     background: linear-gradient(to bottom right, black, red);
     color:white;
     height: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 20px;
+    margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -15,6 +12,10 @@ body {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 16px;
+}
+
+.sword, .members, h3, button, p, h4 {
+    margin-left: 20px;
 }
 
 .sword {
