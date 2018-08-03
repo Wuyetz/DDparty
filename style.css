@@ -35,6 +35,11 @@ h3 {
     color: blue;
 }
 
+h4 {
+    line-height: 0.5;
+    margin-top: 20px;
+}
+
 button {
     border-radius: 28px;
 }
@@ -43,6 +48,4 @@ p {
     line-height: 0.4;
 }
 
-h4 {
-    line-height: 0.5;
-}
+
