@@ -30,8 +30,14 @@ h3, p, h4 {
 .members {
     color: teal;
 }
+
 h3 {
     color: blue;
+}
+
+h4 {
+    line-height: 0.5;
+    margin-top: 20px;
 }
 
 button {
@@ -42,6 +48,4 @@ p {
     line-height: 0.4;
 }
 
-h4 {
-    line-height: 0.5;
-}
+
