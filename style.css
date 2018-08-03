@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom right, black, red);	
+    background: linear-gradient(to bottom right, black, red);
     color:white;
     
     font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
@@ -26,3 +26,10 @@ button {
     border-radius: 28px;
 }
 
+p {
+    line-height: 0.5;
+}
+
+h4 {
+    line-height: 0.6;
+}
