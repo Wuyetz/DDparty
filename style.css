@@ -14,18 +14,22 @@ body {
 	line-height: 16px;
 }
 
-.sword, .members, h3, p, h4 {
+#classes, #classB0, #classB1, #classB2, #classB3 {
+    margin-left: 20px;
+}
+
+h3, p, h4 {
     margin-left: 20px;
 }
 
 .sword {
     color: gold;
+    margin-left: 40px;
 }
 
 .members {
     color: teal;
 }
-
 h3 {
     color: blue;
 }
