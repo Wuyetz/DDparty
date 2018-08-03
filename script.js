@@ -2,11 +2,16 @@ window.onload = function() {
 
 
     // classes, races, alignment arrays
-    var ddClasses = ["Cleric", "Fighter", "Rogue", "Wizard", "Barbarian", "Bard", "Druid", "Monk", "Paladin", "Ranger", "Sorcerer", "Warlock", "Necromancer", "Assassin", "Shaman", "Scout", "Berserker", "Knight", "Crusader", "Beast Master", "Hunter", "Thief", "Swashbuckler", "Conjurer", "Enchanter", "Evoker", "Illusionist", "Transmuter", "Zealot", "Arcane archer", "Mystic", "Psychic"];
+    var ddClasses = ["Cleric", "Fighter", "Rogue", "Wizard", "Barbarian", "Bard", "Druid", "Monk", "Paladin", "Ranger",
+                     "Sorcerer", "Warlock", "Necromancer", "Assassin", "Shaman", "Scout", "Berserker", "Knight", "Crusader",
+                     "Beast Master", "Hunter", "Thief", "Swashbuckler", "Conjurer", "Enchanter", "Evoker", "Illusionist",
+                     "Transmuter", "Zealot", "Arcane archer", "Mystic", "Psychic"];
 
-    var ddRaces = ["Human", "Orc", "Half-elf", "Half-orc", "Dwarf", "Halfling", "Gnome", "Elf", "Lizard-folk", "Hobgoblin", "Kobold", "Dragonborn", "Goblin"];
+    var ddRaces = ["Human", "Orc", "Half-elf", "Half-orc", "Dwarf", "Halfling", "Gnome", "Elf", "Lizard-folk", "Hobgoblin",
+                   "Kobold", "Dragonborn", "Goblin"];
 
-    var ddAlign = ["Chaotic evil", "Chaotic good", "Chaotic neutral", "True evil", "True good", "True neutral", "Lawful evil", "Lawful good", "Lawful neutral"];
+    var ddAlign = ["Chaotic evil", "Chaotic good", "Chaotic neutral", "True evil", "True good", "True neutral", "Lawful evil",
+                   "Lawful good", "Lawful neutral"];
 
     // first part of name, works for both genders- array
     var nameA = [
@@ -69,7 +74,7 @@ window.onload = function() {
         "´", "´", "´", "´", "´", "´", "´", "´", "´", "´", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"
     ];
 
-    // third part of male name- array 
+    // third part of name- array 
     var nameCm = [
         "al", "as", "ast", "alm", "at", "aius", "ais", "aer", "arg",
         "bul", "bor", "borf", "ber", "bel", "bin", "bald", "bold",
@@ -134,7 +139,8 @@ window.onload = function() {
         "Average", "Attention-wench", "Ale´s nightmare",
         "Bug-eyed", "Bastard", "Bird-legged", "Boneless", "Bear", "Beaver", "Bone collector",
         "Chicken", "Chicken´s flight", "Children´s nightmare", "Child-slayer",
-        "Dragonbane", "Demon-hunter", "Death-breath", "Dull", "Dungbeetle", "Demon´s bane", "Devil´s servant", "Dead", "Devious", "Disgusting", "Dreamy", "Dreaded", "Dragon´s cleaver", "Defender of evil", "Defeated",
+        "Dragonbane", "Demon-hunter", "Death-breath", "Dull", "Dungbeetle", "Demon´s bane", "Devil´s servant", "Dead",
+        "Devious", "Disgusting", "Dreamy", "Dreaded", "Dragon´s cleaver", "Defender of evil", "Defeated",
         "Evoker of nightmares", "Evil",
         "Furious", "Fourlegged", "Firebreather", "Faithless",
         "Green-thumbed", "Godlike", "Goat-eye", "Glorious", "Gifted", "Giving", "Gruesome",
@@ -148,7 +154,8 @@ window.onload = function() {
         "One-eyed", "One-legged",
         "Purple-eyed", "Philosopher", "Poisoned", "Protector of privileged", "Protector of weak", "Prince of thieves",
         "Rose petal", "Restless", "Ruthless", "Red-headed",
-        "Seducer", "Slow", "Sweet", "Slimy", "Sorrow bringer", "Sharp", "Shield-bearer", "Sneaky-sneaky", "Serpent", "Sneaky", "Squishy", "Slightly evil", "Soulless", "Southerner", "Silly", "Skewered", "Sinner", "Serious", "Succulent", "Seduced",
+        "Seducer", "Slow", "Sweet", "Slimy", "Sorrow bringer", "Sharp", "Shield-bearer", "Sneaky-sneaky", "Serpent", "Sneaky",
+        "Squishy", "Slightly evil", "Soulless", "Southerner", "Silly", "Skewered", "Sinner", "Serious", "Succulent", "Seduced",
         "Tender", "Tedious", "Three-eyed", "Twice-boiled", "Tiny", "Tiny sword", "Twice-poisoned", "Three-legged",
         "Unwanted", "Unfortunate", "Unseemly",
         "Void traveler", "Vicious", "Virgin", "Virgin´s nightmare", "Virginslayer", "Velvet", "Victorious", "Vile",
@@ -160,7 +167,8 @@ window.onload = function() {
     // title next to female name- array
     var nameTf = [
         "Average", "Avenged",
-        "Bossomed", "Bane of thousand meals", "Boneless", "Bloodless", "Bloody", "Beautiful", "Bear mother", "Boring", "Breath of Death", "Beautiful-inside", "Boiled",
+        "Bossomed", "Bane of thousand meals", "Boneless", "Bloodless", "Bloody", "Beautiful", "Bear mother", "Boring",
+        "Breath of Death", "Beautiful-inside", "Boiled",
         "Clueless", "Cunning", "Cute", "Crazy", "Cat",
         "Dawn of the desert", "Demon huntress", "Devil´s mistress", "Dead", "Dessperate", "Deceiving",
         "Erratic", "Enchanting", "Eyeless", "Elf-slayer",
@@ -302,7 +310,8 @@ window.onload = function() {
         randAlign($("#align3"));
     });
 
-    /* combines into a name either randoms from "nameA","nameCm" and "nameTm" or randoms from "nameA","nameB","nameCm" and "nameTm", this way we get some shorter and simpler names and some longer ones. Changes this character´s gender into male.
+    /* combines into a name either randoms from "nameA","nameCm" and "nameTm" or randoms from "nameA","nameB","nameCm" and "nameTm",
+    this way we get some shorter and simpler names and some longer ones. Changes this character´s gender into male.
      */
 
     function maleName(nameNo, genderNo) {
@@ -321,7 +330,7 @@ window.onload = function() {
                 " the " +
                 nameTm[Math.floor(Math.random() * nameTm.length)]);
         }
-        genderNo.html("male");
+        genderNo.html("Male");
     }
 
     $("#name0M").click(function() {
@@ -358,7 +367,7 @@ window.onload = function() {
                 " the " +
                 nameTf[Math.floor(Math.random() * nameTf.length)]);
         }
-        genderNo.html("female");
+        genderNo.html("Female");
     }
 
     // female version of the above 
@@ -397,7 +406,8 @@ window.onload = function() {
         }
     }
 
-    /* creates four random names for two female and two male characters and changes those characters´ genders to correct ones, hides the "names" button
+    /* creates four random names for two female and two male characters and changes those characters´ genders to correct ones,
+    hides the "names" button
      */
 
     $("#names").click(function() {
@@ -407,15 +417,16 @@ window.onload = function() {
         randName($("#name2"), 5, nameCm, nameTm);
         randName($("#name3"), 4, nameCf, nameTf);
 
-        $("#gender0").html("male");
-        $("#gender1").html("female");
-        $("#gender2").html("male");
-        $("#gender3").html("female");
+        $("#gender0").html("Male");
+        $("#gender1").html("Female");
+        $("#gender2").html("Male");
+        $("#gender3").html("Female");
 
         $("#names").toggle();
     })
 
-    /* resets things to original state, checks if buttons are visible and makes them visible, erases the text in paragraphs, empties arrays
+    /* resets things to original state, checks if buttons are visible and makes them visible, erases the text in paragraphs,
+    empties arrays
      */
     $("#refresh").click(function() {
 
